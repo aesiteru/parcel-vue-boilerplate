@@ -18,8 +18,8 @@ export default {
 .layout__side {
   display: grid;
   height: 100vh;
-  border: 1px solid orange;
   grid-template-columns: 0.15fr 0.8fr;
+  grid-template-rows: 1fr;
 
   aside {
     background-color: #333;

@@ -11,6 +11,5 @@ import { Component, Vue } from 'vue-property-decorator'
   name: 'About'
 })
 export default class Home extends Vue {
-
 }
 </script>
