@@ -1,6 +1,6 @@
 <template>
-  <div class="home">
-    <hello-world name="Test Property" />
+  <div class="about">
+    about
   </div>
 </template>
 
@@ -8,10 +8,7 @@
 import { Component, Vue } from 'vue-property-decorator'
 
 @Component({
-  name      : 'Home',
-  components: {
-    HelloWorld: () => import('@/components/HelloWorld.vue')
-  }
+  name: 'About'
 })
 export default class Home extends Vue {
 

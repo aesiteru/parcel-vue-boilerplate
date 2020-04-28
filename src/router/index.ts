@@ -5,8 +5,10 @@ Vue.use(VueRouter)
 
 const routes: Array<RouteConfig> = [
   {
-    path     : '/',
-    name     : 'Home',
+    path: '/',
+    meta: {
+      layout: 'default'
+    },
     component: () => import('@/views/Home.vue')
   }
 ]
